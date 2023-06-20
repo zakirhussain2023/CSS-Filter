@@ -1,0 +1,39 @@
+img{
+	height:500px;
+	width:500px;
+}
+
+.img-blur img:hover{
+  filter:blur(5px);
+  transition: filter 0.3s ease;
+}
+
+.img-hue-rotate img:hover{
+  filter:hue-rotate(90deg);
+  transition: filter 0.3s ease;
+}
+
+.img-brightness img:hover{
+  filter:brightness(2);
+  transition: filter 0.3s ease;
+}
+
+.img-invert img:hover{
+  filter:invert(1);
+  transition: filter 0.3s ease ;
+}
+
+.img-grayscale img:hover{
+  filter:grayscale(150%);
+  transition: filter 0.3s ease;
+}
+
+.img-saturate img:hover{
+  filter:saturate(200%);
+  transition: filter 0.3s ease;
+}
+
+.img-sepia img:hover{
+  filter:sepia(100%);
+  transition: filter 0.3s ease;
+}
